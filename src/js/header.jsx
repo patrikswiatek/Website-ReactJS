@@ -17,7 +17,7 @@ import Link from "react-router-dom/es/Link";
 								<li><Link to="/">HOME</Link></li>
 								<li><Link to="/Contact">CONTACT</Link></li>
 								<li><a href="">DROPDOWN</a></li>
-								<li><a href="">LINK TEXT</a></li>
+								<li><a href="">ABOUT</a></li>
 							</ul>
 						</nav>
 					</header>

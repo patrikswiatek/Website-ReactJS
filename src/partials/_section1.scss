@@ -41,12 +41,12 @@
       .boxes {
         display: flex;
         justify-content: space-between;
-        width: 100%;
         font-size: 0.9rem;
         text-align: justify;
+        flex-wrap: wrap;
         .box {
-          width: 23vw;
-          height: 30vh;
+          width: 315px;
+          height: 240px;
           background-color: rgba(43, 43, 43, 0.88);
           display: flex;
           flex-direction: column;
