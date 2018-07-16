@@ -1,0 +1,143 @@
+.formLink {
+  text-decoration: none;
+  color: rgba(168, 255, 165, 0.46);
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* CONTACT FORM */
+
+// Variables
+$color-grey: #000000;
+$color-grey-light: #f5a061;
+$color-primary: #ab3f23;
+$radius: 25px;
+
+// Function
+@function remy($value, $base: 16px) {
+  @return ($value / $base) * 1rem;
+}
+
+// Mixins
+@mixin transition($prop: all, $duration: .25s, $timing: cubic-bezier(.4,0,1,1)) {
+  transition: $prop $duration $timing;
+}
+
+
+
+.contact {
+  font: 100% 'Roboto', arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  color: orange;
+  background: url("./images/chair24.jpg") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.react-form {
+  opacity: 0.9;
+  padding: remy(32px);
+  max-width: remy(650px);
+  background-color: #590b00;
+  border-radius: $radius;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: -1px 1px 5px 5px rgba(49, 49, 49, 0.53);
+}
+
+.react-form h1 {
+  font-size: 1.40rem;
+  color: #f5a061;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  text-align: center;
+  font-size: 1.618rem;
+}
+
+.form-group {
+  padding: 0;
+  border: 0;
+
+  & + & {
+    margin-top: 1rem;
+  }
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-size: .75rem;
+  text-transform: uppercase;
+  touch-action: manipulation;
+}
+
+.form-input,
+textarea {
+  display: block;
+  padding: .5rem .75rem;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: black;
+  background: #f5a061 none;
+  background-clip: padding-box;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid $color-grey;
+  border-left: 0;
+
+  @include transition;
+
+  &:focus {
+    outline: 0;
+    border-bottom-color: $color-primary;
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn {
+  display: inline-block;
+  padding: .75rem 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: $color-primary;
+  border: 1px solid transparent;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  margin: 0;
+  left: 45%;
+  margin-top: 1.618rem;
+  @include transition;
+
+  &:focus,
+  &:hover {
+    background-color: lighten($color-primary, 13%);
+    box-shadow: 0 18px 35px rgba(50,50,93,.1),0 8px 15px rgba(0,0,0,.07);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
