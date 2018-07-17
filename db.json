@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "The best chair",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Wow",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Great",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The best",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "The next best",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Brilliant",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Beautiful",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Nice one",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "This legs",
+      "color": "red",
+      "set": true,
+      "price": 59.28,
+      "src": "./../images/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Up",
+      "color": "red",
+      "set": false,
+      "price": 59.28,
+      "src": "./../images/10.jpg"
+    }
+  ],
+  "messages": [
+    {
+      "formSender": "sadsadsadasdas",
+      "formEmail": "spejsszyp@gmail.com",
+      "formSubject": "sadas",
+      "formMessage": "sadadsada",
+      "id": 1
+    }
+  ]
+}

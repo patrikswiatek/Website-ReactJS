@@ -15,7 +15,7 @@ import Link from "react-router-dom/es/Link";
 						<nav className='col-6'>
 							<ul>
 								<li><Link to="/">HOME</Link></li>
-								<li><Link to="/Contact">CONTACT</Link></li>
+								<li><a href='' onClick={this.hadleContactForm}>CONTACT</a></li>
 								<li><a href="">DROPDOWN</a></li>
 								<li><a href="">ABOUT</a></li>
 							</ul>

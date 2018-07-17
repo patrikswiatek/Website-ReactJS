@@ -1,10 +1,8 @@
 import React from 'react'
 
-/*
+
 class Contact extends React.Component {
-	constructor(props) {
-		super(props)
-	}
+
 
 	render() {
 
@@ -42,7 +40,11 @@ class ContactForm extends React.Component {
 		};
 
 		if (formData.formSender.length < 1 || formData.formEmail.length < 1 || formData.formSubject.length < 1 || formData.formMessage.length < 1) {return false}
-/*
+
+
+
+
+		/*
 		$.ajax({
 			url: 'http://localhost:3000/messages',
 			dataType: 'json',
@@ -61,11 +63,14 @@ class ContactForm extends React.Component {
 				alert('There was some problem with sending your message.')
 			}
 		});
-
+*/
 		this.setState({firstName: '', lastName: '', email: '', subject: '', message: ''})
 	};
 
 	render() {
+
+
+
 
 		return (
 			<div className="contact">
@@ -122,7 +127,26 @@ class ContactForm extends React.Component {
 			</div>);
 
 	}
+/*
+	componentDidMount() {
+		fetch('http://localhost:3000/messages')
+			.then(resp => {
+				if() {
+					return resp.json();
+				} else {
+					throw new Error('Błąd sieci!');
+				}
+			})
+			.then(data => {
+				const title = data.items[0].volumeInfo.title;
+
+				this.setState({
+					title: title,
+				});
+
+			}).catch(err => console.log(err));
+	}
+*/
 }
 
 export default ContactForm;
-*/

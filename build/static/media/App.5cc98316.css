@@ -1,16 +1,16 @@
 /*
-Error: File to import not found or unreadable: ./partials/reset.
-        on line 1 of App.bf616971.scss
+Error: File to import not found or unreadable: partials/reset.
+        on line 1 of App.5cc98316.scss
 
-1: @import './partials/reset';
-2: @import './partials/base';
-3: @import './partials/grid';
-4: @import './partials/address';
-5: @import './partials/header';
-6: @import './partials/section1';
+1: @import 'partials/reset';
+2: @import './partials/base.scss';
+3: @import './partials/grid.scss';
+4: @import './partials/address.scss';
+5: @import './partials/header.scss';
+6: @import './partials/section1.scss';
 
 Backtrace:
-App.bf616971.scss:1
+App.5cc98316.scss:1
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:45:in `import'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -53,4 +53,4 @@ App.bf616971.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ./partials/reset.\A         on line 1 of App.bf616971.scss\A \A 1: @import './partials/reset';\A 2: @import './partials/base';\A 3: @import './partials/grid';\A 4: @import './partials/address';\A 5: @import './partials/header';\A 6: @import './partials/section1';"; }
+  content: "Error: File to import not found or unreadable: partials/reset.\A         on line 1 of App.5cc98316.scss\A \A 1: @import 'partials/reset';\A 2: @import './partials/base.scss';\A 3: @import './partials/grid.scss';\A 4: @import './partials/address.scss';\A 5: @import './partials/header.scss';\A 6: @import './partials/section1.scss';"; }

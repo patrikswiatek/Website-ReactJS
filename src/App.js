@@ -1,37 +1,29 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
-	HashRouter,
-	Route,
-	Switch,
+	HashRouter, Route, Switch,
 } from 'react-router-dom';
 import Main from './js/main.jsx'
+import ContactForm from './js/contact.jsx'
 import './App.scss';
 
 class NotFound extends React.Component {
 
 	render() {
-
-		return (
-
-			<div>
+		return (<div>
 				<h1>404</h1>
-			</div>
-
-		);
+			</div>);
 	}
 }
 
 class App extends Component {
 	render() {
-		return (
-			<HashRouter>
+		return (<HashRouter>
 				<Switch>
 					<Route exact path='/' component={Main}/>
-
+					<Route exact path='/contact' component={ContactForm}/>
 					<Route component={NotFound}/>
 				</Switch>
-			</HashRouter>
-		);
+			</HashRouter>);
 	}
 }
 
