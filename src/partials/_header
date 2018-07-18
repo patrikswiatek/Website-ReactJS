@@ -9,35 +9,179 @@
   .logo {
     a {
       font-size: 1.7rem;
+
     }
     span {
       color: orange;
     }
   }
   nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 7vh;
-    ul {
-      display: flex;
-      align-items: center;
-      list-style-type: none;
-      width: 80%;
-      justify-content: space-between;
-      height: 100%;
-      a {
-        text-decoration: underline;
-        color: grey;
-        &:hover {
-          color: orange;
-        }
-      }
+    position: relative;
+    top: -0.3rem;
+    left: 6rem;
+  }
 
-    }
+  .underline {
+    position: relative;
+    height: 1.3rem;
+    width: 26.6rem;
+    border-bottom: 4px double grey;
+    top: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    float: left;
+
+
+  }
+
+  ul > li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    height: 30px;
+    color: grey;
+    text-decoration: none;
+    font-size: 1rem;
+
+  }
+
+
+  ul > li > a {
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+
+  }
+
+  ul > li > a:hover,
+  ul > li:hover > a {
+    color: orange;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+  }
+
+  ul > li ul {
+
+    padding: 0;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 30px;
+    width: 200px;
+    text-align: left;
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+    z-index: 5;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+
+  ul li:hover > ul {
+    display: block;
+  }
+
+  ul > li ul ul {
+    left: 200px;
+    top: -1px;
+  }
+
+  ul > li ul li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: none;
+    height: auto;
+  }
+
+  ul > li ul li a {
+    padding: 10px 20px;
+    color: grey;
+    text-decoration: none;
+    display: block;
+  }
+
+  ul > li ul li a:hover,
+  ul > li ul li:hover > a {
+    color: #fff;
+    background-color: orange;
+  }
+
+  ul {
+  list-style: none;
+  float: left;
+
+}
+
+  ul > li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    height: 30px;
+  }
+
+  ul > li > a {
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+  }
+
+  ul > li > a:hover,
+  ul > li:hover > a {
+    color: orange;
+  }
+
+  ul > li ul {
+    padding: 0;
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 30px;
+    width: 200px;
+    text-align: left;
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+  }
+
+  ul li:hover > ul {
+    display: block;
+  }
+
+  ul > li ul ul {
+    left: 200px;
+    top: -1px;
+  }
+
+  ul > li ul li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: none;
+    height: auto;
+  }
+
+  ul > li ul li a {
+    padding: 10px 20px;
+    color: grey;
+    text-decoration: none;
+    display: block;
+  }
+
+  ul > li ul li a:hover,
+  ul > li ul li:hover > a {
+    color: #fff;
+    background-color: orange;
   }
 }
+
+nav>ul>li:last-child {
+  pointer-events: none;
+  cursor: default;
+}
+
 
 .text-pop-up{animation:text-pop-up-right 4s cubic-bezier(.25,.46,.45,.94) 2 alternate-reverse both}
 
