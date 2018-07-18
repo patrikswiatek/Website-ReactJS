@@ -9,13 +9,13 @@ import Link from "react-router-dom/es/Link";
 			return(
 				<div className='menu'>
 					<header className='row container'>
-						<div className='col-6 logo'>
+						<div className='col-6 logo text-pop-up'>
 							<a>Sit <span>On</span> Chair</a>
 						</div>
 						<nav className='col-6'>
 							<ul>
 								<li><Link to="/">HOME</Link></li>
-								<li><a href='' onClick={this.hadleContactForm}>CONTACT</a></li>
+								<li><Link to="/contact">CONTACT</Link></li>
 								<li><a href="">DROPDOWN</a></li>
 								<li><a href="">ABOUT</a></li>
 							</ul>

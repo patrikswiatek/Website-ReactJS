@@ -1,5 +1,10 @@
 import React from 'react'
-
+import Address from "./address.jsx";
+import Header from "./header.jsx";
+import Section2 from "./section2.jsx";
+import Section3 from "./section3.jsx";
+import Footer from "./footer.jsx";
+import './../App.scss'
 
 class Contact extends React.Component {
 
@@ -10,7 +15,7 @@ class Contact extends React.Component {
 	}
 }
 
-class ContactForm extends React.Component {
+class PreContactForm extends React.Component {
 	constructor(props) {
 		super(props);
 
@@ -74,14 +79,9 @@ class ContactForm extends React.Component {
 
 		return (
 			<div className="contact">
-				<div className='layer'>
-				<div className="flexwrap">
-					<div className="arrowed">
-						<div className="arrow-1"/>
-					</div>
-				</div>
-
-				<form className='react-form' onSubmit={this.handleSubmit}>
+				<div className="layer2">
+					<div className="row container">
+				<form className='react-form col-12' onSubmit={this.handleSubmit}>
 
 					<h1>If you would like more information or have any questions, please leave
 						us a message we will do our best to get back to you as soon as
@@ -119,10 +119,10 @@ class ContactForm extends React.Component {
 					</fieldset>
 
 					<div className='form-group'>
-						<input id='formButton' className='btn' type='submit'
-						       placeholder='Send message'/>
+						<button className='btn' type='submit'>SEND MESSAGE</button>
 					</div>
 				</form>
+					</div>
 				</div>
 			</div>);
 
@@ -148,5 +148,20 @@ class ContactForm extends React.Component {
 	}
 */
 }
+class ContactForm extends React.Component {
+	render(){
+		return (
+			<div className='grid-container'>
+				<Address/>
+				<Header />
+				<PreContactForm />
+				<Section2/>
+				<Section3/>
+				<Footer/>
+			</div>
+		);
+	}
+}
+
 
 export default ContactForm;

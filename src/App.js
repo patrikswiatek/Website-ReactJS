@@ -4,6 +4,7 @@ import {
 } from 'react-router-dom';
 import Main from './js/main.jsx'
 import ContactForm from './js/contact.jsx'
+import Testing from './js/testing.jsx'
 import './App.scss';
 
 class NotFound extends React.Component {
@@ -18,11 +19,14 @@ class NotFound extends React.Component {
 class App extends Component {
 	render() {
 		return (<HashRouter>
+			<div>
 				<Switch>
 					<Route exact path='/' component={Main}/>
 					<Route exact path='/contact' component={ContactForm}/>
+					<Route exact path='/t' component={Testing}/>
 					<Route component={NotFound}/>
 				</Switch>
+			</div>
 			</HashRouter>);
 	}
 }

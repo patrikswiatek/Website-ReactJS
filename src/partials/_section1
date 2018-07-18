@@ -30,7 +30,10 @@
         .h1 {
           width: 100%;
           padding-bottom: 5vh;
-          font-size: 2.5rem;
+          margin-top: 0;
+          margin-bottom: 0.1rem;
+          text-align: center;
+          font-size: 1.618rem;
         }
         .a {
           width: 100%;
