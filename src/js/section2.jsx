@@ -9,7 +9,7 @@ import React from 'react'
 					<section className='row container'>
 						<div className='col-12 info'>
 							<div className='image'>
-								<span className='image2 slide-in-left' />
+								<span className='image2' />
 							</div>
 							<div className='allinfo'>
 								<div className='heading'>

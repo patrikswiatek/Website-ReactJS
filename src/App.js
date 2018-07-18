@@ -7,7 +7,7 @@ import ContactForm from './js/contact.jsx'
 import Testing from './js/testing.jsx'
 import './App.scss';
 
-class NotFound extends React.Component {
+class NotFound extends Component {
 
 	render() {
 		return (<div>

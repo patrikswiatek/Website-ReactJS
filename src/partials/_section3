@@ -18,7 +18,7 @@
       height: 20%;
       padding: 1.5%;
       &:hover {
-        transform: scale(1.15);
+        transform: scale(1.1);
       }
     }
   }
