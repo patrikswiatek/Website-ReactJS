@@ -65,7 +65,7 @@ class PreContactForm extends React.Component {
 									text: 'Back Main Page',
 									className: 'danger',
 									action: function () {
-										window.location.href='http://localhost:3001/';
+										window.location.href='https://ultra-page.surge.sh/#/';
 									}
 								}],
 							}

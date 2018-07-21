@@ -12,19 +12,13 @@
 
 //FORM//
 .contact {
-  height: 100vw;
-  background: whitesmoke;
-}
-
-
-.contact {
   font-family: 'Libre Baskerville', sans-serif, 'Arial Black';
   height: 80vh;
   width: 100vw;
   color: whitesmoke;
   background: url('./images/chair33.jpg') no-repeat;
-  background-size: 100% 100%;
-  position: relative;
+  background-size: cover;
+  position: absolute;
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -32,6 +26,7 @@
     opacity: 0.8;
     padding: remy(32px);
     max-width: remy(550px);
+    min-width: 250px;
     border-radius: 10px;
     background-color: rgba(145, 145, 145, 0.52);
     position: absolute;
