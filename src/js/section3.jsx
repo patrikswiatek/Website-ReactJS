@@ -1,5 +1,5 @@
 import React from 'react'
-
+import se3 from './../images/se3.png'
 
 class Section3 extends React.Component {
 	constructor(props) {
@@ -65,10 +65,17 @@ class Section3 extends React.Component {
 			<div className='section3'>
 				<section className='row container'>
 					<div className='col-12'>
-						<div className='boxes1-3'>
-							<div className='box' onMouseOver={this.mouseOnS3} onMouseLeave={this.mouseOffS3} style={styleS3}>Lorem ipsum dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel quam. Aliquam tellus sollicitudin dignissim. Lorem ipsum dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel quam. Aliquam tellus sollicitudin dignissim, sapien eleifend neque ac nulla ipsum dolor quam, lobortis velit cursus dignissim dapibus nisl urna vitae metus.</div>
-							<div className='box' onMouseOver={this.mouseOnS3a} onMouseLeave={this.mouseOffS3a} style={styleS3a}>Lorem ipsum dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel quam. Aliquam tellus sollicitudin dignissim. Lorem ipsum dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel quam. Aliquam tellus sollicitudin dignissim, sapien eleifend neque ac nulla ipsum dolor quam, lobortis velit cursus dignissim dapibus nisl urna vitae metus.</div>
-							<div className='box' onMouseOver={this.mouseOnS3b} onMouseLeave={this.mouseOffS3b} style={styleS3b}>Lorem ipsum dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel quam. Aliquam tellus sollicitudin dignissim. Lorem ipsum dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel quam. Aliquam tellus sollicitudin dignissim, sapien eleifend neque ac nulla ipsum dolor quam, lobortis velit cursus dignissim dapibus nisl urna vitae metus.</div>
+						<div className='containTitle'>
+							<h3>LOREM IPSUM OFFICIA DESERUNT</h3>
+							<a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quimollit officia deserunt mollit anim est id est id laborum. Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.</a>
+						</div>
+						<div className='contain'>
+							<div className='containImage'><img alt="" src={se3} /></div>
+							<div className='boxes1-3'>
+								<div className='box1' onMouseOver={this.mouseOnS3} onMouseLeave={this.mouseOffS3} style={styleS3}>Lorem ipsum dis dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus laboris nisi ut aliquip ex ea et magnis dis parturient montes, nascetur.</div>
+								<div className='box2' onMouseOver={this.mouseOnS3a} onMouseLeave={this.mouseOffS3a} style={styleS3a}>Lorem ipsum dis dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus laboris nisi ut aliquip ex ea et magnis dis parturient montes, nascetur.</div>
+								<div className='box3' onMouseOver={this.mouseOnS3b} onMouseLeave={this.mouseOffS3b} style={styleS3b}>Lorem ipsum dis dolor sit amet neque. Cras semper tellus. Cum sociis natoque penatibus et netus laboris nisi ut aliquip ex ea et magnis dis parturient montes, nascetur.</div>
+							</div>
 						</div>
 					</div>
 				</section>

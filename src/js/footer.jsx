@@ -51,13 +51,14 @@ import React from 'react'
 								</label>
 								<label>
 									<a>E-mail:</a>
-									<input type='mail' name="mail" />
+									<input type='email' name="mail" />
 								</label>
-								<input type="submit" value="Submit" />
+								<button type="submit" className='newsBtn'><a>SUBMIT</a></button>
 							</form>
 						</div>
 						</div>
 					</footer>
+
 				</div>
 			);
 		}

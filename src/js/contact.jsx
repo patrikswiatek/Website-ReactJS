@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 import Address from "./address.jsx";
 import Header from "./header.jsx";
-import Section2 from "./section2.jsx";
-import Section3 from "./section3.jsx";
-import Footer from "./footer.jsx";
+
 import './../App.scss'
 import Popup from 'react-popup';
+
 
 class Contact extends React.Component {
 	render() {
@@ -66,9 +65,7 @@ class PreContactForm extends React.Component {
 									text: 'Back Main Page',
 									className: 'danger',
 									action: function () {
-										window.open('https//http://localhost:3001/#');
-
-
+										window.location.href='http://localhost:3001/';
 									}
 								}],
 							}
@@ -92,74 +89,57 @@ class PreContactForm extends React.Component {
 						<h1>If you would like more information or have any questions, please leave
 							us a message we will do our best to get back to you as soon as
 							possible.</h1>
-
 						<fieldset className='form-group'>
 							<Contact htmlFor='formName' title='Full Name:'/>
-
 							<input id='formName' className='form-input' name='name' type='text'
 							       required onChange={this.handleChange} value={this.state.name}/>
 						</fieldset>
-
 						<fieldset className='form-group'>
 							<Contact htmlFor='formEmail' title='Email:'/>
 
 							<input id='formEmail' className='form-input' name='email' type='email'
 							       required onChange={this.handleChange} value={this.state.email}/>
 						</fieldset>
-
 						<fieldset className='form-group'>
 							<Contact htmlFor='formSubject' title='Subject:'/>
-
 							<input id='formSubject' className='form-input' name='subject'
 							       type='text' required onChange={this.handleChange}
 							       value={this.state.subject}/>
 						</fieldset>
-
 						<fieldset className='form-group'>
 							<Contact htmlFor='formMessage' title='Message:'/>
-
 							<textarea id='formMessage' className='form-textarea' name='message'
 							          required onChange={this.handleChange}>
-			</textarea>
+							</textarea>
 						</fieldset>
-
 						<div className='form-group'>
-							<button className='btn' type='submit'>SEND MESSAGE
-							</button>
+							<button className='cntBtn' type='submit'>SEND MESSAGE</button>
 						</div>
 					</form>
 				</div>
 			</div>
 		</div>);
-
 	}
-
 }
 
 class ContactForm extends React.Component {
 	render() {
 
-		return (<div className='grid-container'>
-				<Address/>
-				<Header/>
-				<Popup
-					className="mm-popup"
-					btnClass="mm-popup__btn"
-					closeBtn={false}
-					closeHtml={false}
-					defaultOk="Ok"
-					defaultCancel="Cancel"
-					wildClasses={false}
-					escToClose={true}/>
-				<PreContactForm/>
-				<Section2/>
-				<Section3/>
-				<Footer/>
-
-			</div>);
+		return (<div className='con grid-container'>
+			<Address/>
+			<Header/>
+			<Popup
+				className="mm-popup"
+				btnClass="mm-popup__btn"
+				closeBtn={false}
+				closeHtml={false}
+				defaultOk="Ok"
+				defaultCancel="Cancel"
+				wildClasses={false}
+				escToClose={true}/>
+			<PreContactForm/>
+		</div>);
 	}
-
 }
-
 
 export default ContactForm;

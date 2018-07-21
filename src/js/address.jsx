@@ -6,7 +6,7 @@ import pin from './../images/pin.png';
 import twit from './../images/twit.png';
 import linked from './../images/linked.png';
 import google from './../images/google.png';
-
+import HamburgerMenu from './../js/hamburger.jsx'
 
 	class Address extends React.Component {
 		render(){
@@ -15,7 +15,7 @@ import google from './../images/google.png';
 					<address className='row container'>
 						<div className='media col-12'>
 							<div className='contacts'>
-								<img alt="" src={phone} /><a>601 708 000</a>
+								<img alt="" src={phone} /><a>601708000</a>
 								<img alt="" src={mail} /><a>sitonchair@gmail.com</a>
 							</div>
 							<div className='icons'>
@@ -27,6 +27,7 @@ import google from './../images/google.png';
 							</div>
 						</div>
 					</address>
+					<HamburgerMenu />
 				</div>
 			);
 		}

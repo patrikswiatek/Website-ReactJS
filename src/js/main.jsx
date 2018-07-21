@@ -5,27 +5,12 @@ import Section1 from "./section1.jsx";
 import Section2 from "./section2.jsx";
 import Section3 from "./section3.jsx";
 import Footer from "./footer.jsx";
+import Footer2 from "./footer2.jsx";
 import './../App.scss'
 
 
 
 class Main extends React.Component {
-	/*
-	constructor(props) {
-		super(props);
-
-		this.state = {
-			isContactFormVisible: false,
-		}
-	}
-
-	hadleContactForm = () => {
-		this.setState({
-			isContactFormVisible: true,
-		})
-	};
-
-*/
 	render() {
 		return (<div className='grid-container'>
 			<Address/>
@@ -34,39 +19,9 @@ class Main extends React.Component {
 			<Section2/>
 			<Section3/>
 			<Footer/>
+			<Footer2/>
 		</div>);
 	}
 }
 
-
 export default Main;
-
-/*
-render(){
-		if(this.state.isContactFormVisible === true)
-		return(
-			<div className='grid-container'>
-				<Address />
-				<Header showContactForm={this.hadleContactForm} />
-
-				<ContactForm />
-				<Section1 />
-				<Section2 />
-				<Section3 />
-				<Footer />
-			</div>);
-		else {
-
-			return(
-				<div className='grid-container'>
-					<Address />
-					<Header showContactForm={this.hadleContactForm} />
-					<Section1 />
-					<Section2 />
-					<Section3 />
-					<Footer />
-				</div>);
-		}
-	}
-}
- */

@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Libre Baskerville', sans-serif, 'Arial Black';
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .container {

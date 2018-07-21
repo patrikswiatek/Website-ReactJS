@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 	class Section1 extends React.Component {
 		constructor(props) {
 			super(props);
@@ -53,8 +52,6 @@ import React from 'react';
 
 
 		render() {
-
-
 			const styleS = {
 				backgroundColor: this.state.hoverS ? 'white' : 'rgba(43, 43, 43, 0.88)',
 				color: this.state.hoverS ? 'grey' : 'whitesmoke',
@@ -72,9 +69,7 @@ import React from 'react';
 			};
 
 
-
-
-			return (<div className='section1'>
+			return (<div className='section1' >
 				<div className='layer'>
 					<section className='row container'>
 						<div className='col-12 text'>

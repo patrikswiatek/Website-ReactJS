@@ -5,7 +5,6 @@ import Link from "react-router-dom/es/Link";
 	class Header extends React.Component {
 
 		render() {
-
 			return(
 				<div className='menu'>
 					<header className='row container'>
@@ -13,14 +12,14 @@ import Link from "react-router-dom/es/Link";
 							<a>Sit <span>On</span> Chair</a>
 						</div>
 						<nav className='col-6'>
-							<div className='underline'>
+
 							<ul>
 								<li><Link to="/">HOME</Link></li>
 								<li><Link to="/contact">CONTACT</Link></li>
-								<li><Link to="">&dArr;DROPDOWN</Link>
+								<li><Link to="">&#x25BE;DROPDOWN</Link>
 									<ul>
 										<li><a href="">ABOUT US</a></li>
-										<li><a href="">DEVELOPERS &rArr;</a>
+										<li><a href="">DEVELOPERS&#x25B8;</a>
 											<ul>
 												<li><a href="">OVERVIEW</a></li>
 												<li><a href="">DEVELOPERS TOOLS</a></li>
@@ -33,7 +32,7 @@ import Link from "react-router-dom/es/Link";
 								</li>
 								<li><Link to="">ABOUT</Link></li>
 							</ul>
-							</div>
+
 						</nav>
 					</header>
 				</div>
