@@ -1,0 +1,443 @@
+@media (min-width: 300px) and (max-width: 700px) {
+  body {
+    font-size: 0.7rem;
+    //ADDRESS//
+    .address .media {
+      .contacts {
+        img {
+          margin-right: 5%;
+        }
+        a {
+          display: none;
+        }
+      }
+      .icons {
+        justify-items: flex-end;
+      }
+    }
+    //HEADER//
+    .menu {
+      header {
+        justify-content: flex-start;
+        align-items: center;
+        .logo {
+          animation: none;
+          font-size: 1.1rem;
+          white-space: nowrap;
+          position: relative;
+          left: 20vw;
+          a {
+
+          }
+        }
+        nav {
+          display: none;
+        }
+      }
+    }
+    //SECTION 1//
+    .section1 {
+      font-size: 0.7rem;
+      .layer {
+        .text {
+          .title {
+            h1 {
+              font-size: 110%;
+              margin-bottom: 4%;
+            }
+          }
+          .boxes {
+            flex-direction: column;
+            align-items: center;
+            .box {
+              padding: 6%;
+              margin-bottom: 10%;
+            }
+          }
+        }
+      }
+    }
+    //SECTION 2//
+    .section2 {
+      padding: 10% 0;
+      .info {
+        display: initial;
+        .image {
+          display: initial;
+
+          img {
+            width: 50%;
+            height: 60%;
+            float: left;
+            margin: 0 -3% -5% 0;
+          }
+        }
+        .allinfo {
+          display: initial;
+          padding: 0;
+          .heading {
+            font-size: 80%;
+            display: initial;
+          }
+          .texts {
+            font-size: 80%;
+          }
+        }
+      }
+    }
+    //SECTION 3//
+    .section3 {
+      padding: 10% 0;
+      height: 100%;
+      .containTitle {
+        font-size: 80%;
+        padding-bottom: 5%;
+        height: 40%;
+        h3 {
+          margin-bottom: 5%;
+        }
+      }
+      .contain {
+        position: relative;
+        justify-content: center;
+        height: 40vh;
+        .containImage {
+          width: 100%;
+          justify-content: center;
+          img {
+            z-index: 1;
+            opacity: .3;
+            position: relative;
+            top: -15%;
+            height: 120%;
+          }
+        }
+        .boxes1-3 {
+          font-size: 80%;
+          position: absolute;
+          z-index: 3;
+          width: 100%;
+          .box1 {
+            width: 100%;
+            opacity: .7;
+          }
+        }
+      }
+    }
+    //FOOTER//
+    .footer {
+      font-size: 80%;
+      .placeholders {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .placeholder {
+          width: 40%;
+          .word {
+            font-size: 100%;
+          }
+          .newsBtn {
+            height: 1rem;
+            font-size: 0.6rem;
+          }
+          label {
+            input {
+              height: 1rem;
+            }
+          }
+        }
+      }
+    }
+    //FOOTER 2//
+    .footer2 {
+      height: 100%;
+      .copyright {
+        font-size: 80%;
+      }
+    }
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1300px) {
+  body {
+    font-size: 1rem;
+    //ADDRESS//
+    .address .media {
+      .contacts {
+        img {
+          margin-right: 5%;
+        }
+      }
+      .icons {
+        justify-items: flex-end;
+      }
+    }
+    //HEADER//
+    .menu {
+      header {
+        justify-content: flex-start;
+        align-items: center;
+        .logo {
+          animation: none;
+          font-size: 1.3rem;
+          white-space: nowrap;
+          position: relative;
+          left: 20vw;
+          a {
+
+          }
+        }
+        nav {
+          display: none;
+        }
+      }
+    }
+    //SECTION 1//
+    .section1 {
+      font-size: 1rem;
+      .layer {
+        section {
+          .text {
+            .title {
+              h1 {
+                font-size: 120%;
+                margin-bottom: 4%;
+              }
+            }
+            .boxes {
+              width: 100%;
+              height: 100%;
+              display: flex;
+             justify-content: space-around;
+
+              .box {
+                padding: 4%;
+                margin-bottom: 10%;
+              }
+            }
+          }
+        }
+      }
+    }
+    //SECTION 2//
+    .section2 {
+      padding: 10% 0;
+      .info {
+        display: initial;
+        .image {
+          display: initial;
+
+          img {
+            width: 70%;
+            height: 60%;
+            float: left;
+            margin: 0 -3% -5% 0;
+          }
+        }
+        .allinfo {
+          display: initial;
+          padding: 0;
+          .heading {
+            font-size: 100%;
+            display: initial;
+          }
+          .texts {
+            font-size: 100%;
+          }
+        }
+      }
+    }
+    //SECTION 3//
+    .section3 {
+      padding: 10% 0;
+      height: 100%;
+      .containTitle {
+        font-size: 100%;
+        padding-bottom: 5%;
+        height: 40%;
+        h3 {
+          margin-bottom: 5%;
+        }
+      }
+      .contain {
+        position: relative;
+        justify-content: center;
+        height: 57vh;
+        .containImage {
+          width: 100%;
+          justify-content: center;
+          img {
+            z-index: 1;
+            opacity: .3;
+            position: relative;
+            top: -25%;
+            height: 120%;
+          }
+        }
+        .boxes1-3 {
+          font-size: 100%;
+          position: absolute;
+          z-index: 3;
+          width: 100%;
+          .box1 {
+            width: 100%;
+            opacity: .7;
+          }
+        }
+      }
+    }
+    //FOOTER//
+    .footer {
+      font-size: 100%;
+      .placeholders {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .placeholder {
+          width: 40%;
+          .word {
+            font-size: 120%;
+          }
+        }
+      }
+    }
+    //FOOTER 2//
+    .footer2 {
+      height: 100%;
+      .copyright {
+        font-size: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 610px) and (max-width: 1400px) {
+  //SECTION 2//
+  .section2 {
+    padding: 10% 0;
+    .info {
+      display: initial;
+      .image {
+        display: initial;
+
+        img {
+          width: 50%;
+          height: 60%;
+          float: left;
+          margin: 0 -3% -5% 0;
+        }
+      }
+      .allinfo {
+        display: initial;
+        padding: 0;
+        .heading {
+          font-size: 80%;
+          display: initial;
+        }
+        .texts {
+          font-size: 80%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  //CONTACT FORM//
+  .contact {
+    font-family: 'Libre Baskerville', sans-serif, 'Arial Black';
+    height: 80vh;
+    width: 100vw;
+    color: whitesmoke;
+    background: url('./images/chair33.jpg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    .react-form {
+      top: 250px;
+      opacity: 0.8;
+      padding: remy(32px);
+      min-width: 250px;
+      border-radius: 10px;
+      background-color: rgba(145, 145, 145, 0.52);
+      position: relative;
+      margin: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: -1px 1px 5px 5px rgba(49, 49, 49, 0.53);
+      h1 {
+        font-size: 0.7rem;
+        color: whitesmoke;
+        margin: 2rem;
+        text-align: center;
+        font-weight: 100;
+      }
+      .form-group {
+        padding: 0;
+        border: 0;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        & + & {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+        .form-input,
+        textarea {
+          display: block;
+          padding: .5rem .75rem;
+          width: 100%;
+          font-size: 0.7rem;
+          line-height: 1.25;
+          color: whitesmoke;
+          background-color: rgba(255, 165, 0, 0.36);
+          background-clip: padding-box;
+          border-top: 0;
+          border-right: 0;
+          border-bottom: 1px solid #232323;
+          border-left: 0;
+          @include transition;
+          &:focus {
+            outline: 0;
+            border-bottom-color: #404040;
+          }
+          textarea {
+            resize: vertical;
+          }
+        }
+      }
+    }
+  }
+
+  .cntBtn {
+    font-size: 0.6rem;
+    font-family: 'Libre Baskerville', sans-serif, 'Arial Black';
+    display: inline-block;
+    padding: .35rem 0.5rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkgray;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: white;
+    border: 1px solid darkgray;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    left: 19%;
+    margin-top: 1.3rem;
+    @include transition;
+    &:focus,
+    &:hover {
+      background-color: orange;
+      color: whitesmoke;
+      box-shadow: 0 18px 35px rgba(50, 50, 93, .1), 0 8px 15px rgba(0, 0, 0, .07);
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+}

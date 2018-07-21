@@ -1,21 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import {
+	HashRouter, Route, Switch,
+} from 'react-router-dom';
+import Main from './js/main.jsx'
+import ContactForm from './js/contact.jsx'
+import Testing from './js/testing.jsx'
+import './App.scss';
+
+class NotFound extends Component {
+
+	render() {
+		return (<div>
+				<h1>404</h1>
+			</div>);
+	}
+}
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+	render() {
+		return (<HashRouter>
+			<div>
+				<Switch>
+					<Route exact path='/' component={Main}/>
+					<Route exact path='/contact' component={ContactForm}/>
+					<Route exact path='/t' component={Testing}/>
+					<Route component={NotFound}/>
+				</Switch>
+			</div>
+			</HashRouter>);
+	}
 }
 
 export default App;
