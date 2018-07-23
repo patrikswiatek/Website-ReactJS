@@ -1,0 +1,201 @@
+.menu {
+  width: 100vw;
+  background: whitesmoke;
+  border-bottom: 1px solid grey;
+  color: grey;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  header {
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      width: 20%;
+      display: flex;
+      justify-content: flex-start;
+      font-size: 1.5rem;
+      span {
+        color: orange;
+      }
+    }
+    nav {
+      width: 80%;
+      height: 5vh;
+      top: 20%;
+      left: 6rem;
+      display: flex;
+      justify-content: flex-end;
+      ul {
+        list-style: none;
+        float: left;
+      }
+    }
+  }
+}
+
+.menu header nav ul li ul li a {
+  font-size: 0.8rem;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul > li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  height: 30px;
+  color: grey;
+  text-decoration: none;
+  font-size: 1rem;
+  a {
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+  }
+}
+
+ul > li > a:hover,
+ul > li:hover > a {
+  color: orange;
+  text-decoration: underline;
+}
+
+ul > li ul {
+  padding: 0;
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 30px;
+  width: 110px;
+  text-align: left;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  z-index: 5;
+  text-decoration: none;
+  font-size: 0.4rem;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+
+ul > li ul ul {
+  left: 200px;
+  top: -1px;
+}
+
+ul > li ul li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: none;
+  height: auto;
+}
+
+ul > li ul li a {
+  padding: 10px 20px;
+  color: grey;
+  text-decoration: none;
+  display: block;
+}
+
+ul > li ul li a:hover,
+ul > li ul li:hover > a {
+  color: #fff;
+  background-color: orange;
+}
+
+ul {
+  list-style: none;
+  float: left;
+}
+
+ul > li {
+  margin-left: 22px;
+  padding: 0;
+  float: left;
+  position: relative;
+  height: 30px;
+}
+
+ul > li > a {
+  padding: 10px;
+  color: grey;
+  text-decoration: none;
+}
+
+ul > li > a:hover,
+ul > li:hover > a {
+  color: orange;
+}
+
+ul > li ul {
+  padding: 0;
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 30px;
+  width: 170px;
+  text-align: left;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+
+ul > li ul ul {
+  left: 170px;
+  top: -1px;
+}
+
+ul > li ul li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: none;
+  height: auto;
+}
+
+ul > li ul li a {
+  padding: 10px 20px;
+  color: grey;
+  text-decoration: none;
+  display: block;
+}
+
+ul > li ul li a:hover,
+ul > li ul li:hover > a {
+  color: #fff;
+  background-color: orange;
+}
+
+header > nav > ul > li:last-child {
+  pointer-events: none;
+  cursor: default;
+}
+
+//ANIMATIONS//
+.text-pop-up {
+  animation: text-pop-up-right 4s cubic-bezier(.25, .46, .45, .94) 2 alternate-reverse both;
+}
+
+@keyframes text-pop-up-right {
+  0% {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+    text-shadow: none
+  }
+  100% {
+    transform: translateX(50px);
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc, 0 50px 30px rgba(0, 0, 0, .3)
+  }
+}

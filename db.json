@@ -1,46 +1,19 @@
 {
-  "messages": [
+  "posts": [
     {
-      "formSender": "sadsadsadasdas",
-      "formEmail": "spejsszyp@gmail.com",
-      "formSubject": "sadas",
-      "formMessage": "sadadsada",
-      "id": 1
-    },
-    {
-      "formSender": "sadsadsadasdas",
-      "formEmail": "patrikswiatek@gmail.com",
-      "formSubject": "sadas",
-      "formMessage": "sss",
-      "id": 2
-    },
-    {
-      "formSender": "sadsadsadasdas",
-      "formEmail": "spejsszyp@gmail.com",
-      "formSubject": "sadas",
-      "formMessage": "sss",
-      "id": 3
-    },
-    {
-      "formSender": "Patryk Świątek",
-      "formEmail": "spejsszyp@gmail.com",
-      "formSubject": "sadas",
-      "formMessage": "CXVXCVX",
-      "id": 4
-    },
-    {
-      "formSender": "Patryk Świątek",
-      "formEmail": "spejsszyp@gmail.com",
-      "formSubject": "Hejka",
-      "formMessage": "ssss",
-      "id": 5
-    },
-    {
-      "formSender": "sadsadsadasdas",
-      "formEmail": "spejsszyp@gmail.com",
-      "formSubject": "Hejka",
-      "formMessage": "dddd",
-      "id": 6
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
