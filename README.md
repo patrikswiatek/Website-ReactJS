@@ -1,6 +1,6 @@
-# Website - ReactJS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./public/icon.png" width="27px" />
+# Website - ReactJS
 
-<img src="./src/media/page.gif" width="350px" />
+<img src="./src/media/page.gif" width="700px" height="300" />
 
 ## About
 > Project is made with JavaScript library, and it's fully responsive.
