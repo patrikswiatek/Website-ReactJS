@@ -1,4 +1,4 @@
-# Website - ReactJS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./public/icon.png" width="28px" />
+# Website - ReactJS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./public/icon.png" width="30px" />
 
 
 <img src="./public/page.gif" width="400px" />
