@@ -1,6 +1,6 @@
 .menu {
   width: 100vw;
-  background: whitesmoke;
+  background: white;
   border-bottom: 1px solid grey;
   color: grey;
   position: relative;
@@ -14,21 +14,19 @@
     justify-content: space-between;
     align-items: center;
     .logo {
+      height: 40%;
       width: 20%;
+      background-image: url('./media/logo.png');
+      background-size: cover;
+      background-repeat: no-repeat;
       display: flex;
-      justify-content: flex-start;
-      font-size: 1.5rem;
-      span {
-        color: orange;
-      }
     }
     nav {
-      width: 80%;
-      height: 5vh;
-      top: 20%;
-      left: 6rem;
       display: flex;
       justify-content: flex-end;
+      width: 80%;
+      height: 60%;
+      position: relative;
       ul {
         list-style: none;
         float: left;
@@ -43,7 +41,6 @@
     text-decoration: none;
   }
 }
-
 ul > li {
   margin: 0;
   padding: 0;
@@ -179,23 +176,5 @@ ul > li ul li:hover > a {
 
 header > nav > ul > li:last-child {
   pointer-events: none;
-  cursor: default;
-}
-
-//ANIMATIONS//
-.text-pop-up {
-  animation: text-pop-up-right 4s cubic-bezier(.25, .46, .45, .94) 2 alternate-reverse both;
-}
-
-@keyframes text-pop-up-right {
-  0% {
-    transform: translateX(0);
-    transform-origin: 50% 50%;
-    text-shadow: none
-  }
-  100% {
-    transform: translateX(50px);
-    transform-origin: 50% 50%;
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc, 0 50px 30px rgba(0, 0, 0, .3)
-  }
+  cursor: pointer;
 }

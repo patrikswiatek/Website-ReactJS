@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "react-router-dom/es/Link";
-import Hamburger from './hamburger.jsx'
+import Hamburger from './hamburger.jsx';
 
 	class Header extends React.Component {
 
@@ -9,9 +9,7 @@ import Hamburger from './hamburger.jsx'
 				<div className='menu'>
 					<Hamburger />
 					<header className='row container'>
-						<div className='col-6 logo text-pop-up'>
-							<a>Sit <span>On</span> Chair</a>
-						</div>
+						<span className='col-6 logo' />
 						<nav className='col-6'>
 
 							<ul>

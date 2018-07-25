@@ -1,13 +1,14 @@
 {
-  "main.css": "static/css/main.aa439727.css",
-  "main.css.map": "static/css/main.aa439727.css.map",
-  "main.js": "static/js/main.118a2039.js",
-  "main.js.map": "static/js/main.118a2039.js.map",
+  "main.css": "static/css/main.83a320d3.css",
+  "main.css.map": "static/css/main.83a320d3.css.map",
+  "main.js": "static/js/main.43ea58e5.js",
+  "main.js.map": "static/js/main.43ea58e5.js.map",
   "static/media/LibreBaskerville-Bold.woff": "static/media/LibreBaskerville-Bold.056f6234.woff",
   "static/media/LibreBaskerville-Italic.woff": "static/media/LibreBaskerville-Italic.9fbc4774.woff",
   "static/media/LibreBaskerville-Regular.woff": "static/media/LibreBaskerville-Regular.0b451946.woff",
   "static/media/chair.jpg": "static/media/chair.14ddbfad.jpg",
   "static/media/chair33.jpg": "static/media/chair33.8b68f4f6.jpg",
+  "static/media/logo.png": "static/media/logo.2529e82a.png",
   "static/media/se3.png": "static/media/se3.c32fba1e.png",
   "static/media/twit.png": "static/media/twit.8a895bbd.png"
 }

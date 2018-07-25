@@ -7,13 +7,11 @@
   position: relative;
   justify-content: space-between;
   align-items: flex-end;
-  z-index: 3;
   font-size: 1rem;
   .layer {
     background-color: rgba(43, 43, 43, 0.66);
     position: relative;
     height: 100%;
-    z-index: 4;
     padding: 0 0 6% 0;
     .text {
       width: 100%;
