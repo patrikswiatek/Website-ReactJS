@@ -6,7 +6,7 @@
 ## About
 > Project is made with JavaScript library, and it's fully responsive.
 > The messagess from the contact form are send to the GraphQL API, as a JSON data type.
-> Deployed on static server and published by Surge. [Link page.](https://sitonchair-reactjs.netlify.com)
+> Deployed on static server and published by Netlify. [Link page.](https://sitonchair-reactjs.netlify.com)
 > 
 ## Let's start
 ```
