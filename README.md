@@ -6,7 +6,7 @@
 ## About
 > Project is made with JavaScript library, and it's fully responsive.
 > The messagess from the contact form are send to the GraphQL API, as a JSON data type.
-> Deployed on static server and published by Surge. [Link page.](https://ultra-page.surge.sh)
+> Deployed on static server and published by Surge. [Link page.](https://sitonchair-reactjs.netlify.com)
 > 
 ## Let's start
 ```
@@ -47,8 +47,6 @@ $ npm start
 #### Webpack
 
 #### [ GraphQL API](https://github.com/marmelab/json-graphql-server)
-
-#### [Static server with Surge](https://surge.sh)
 
 ## License
 * #### [MIT License](https://opensource.org/licenses/MIT)
